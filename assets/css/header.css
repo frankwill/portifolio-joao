@@ -1,0 +1,22 @@
+.header {
+   display: flex;
+   justify-content: space-between; 
+   padding: 1rem 2rem;
+   align-items: center;
+   border-bottom: 1px solid var(--cinza-escuro);
+}
+
+.header__tittle {
+    color: var(--cinza);
+    font-size: 18px;
+    font-weight: 500;
+    background: url(../img/insights.svg) no-repeat 4rem / 1.5rem;
+    padding-right: 5rem;
+}
+
+.header__menu {
+   background: url(../img/menu.svg) no-repeat center / 1.5rem;
+   width: 20px;
+   height: 20px;
+   border-style: none; 
+}

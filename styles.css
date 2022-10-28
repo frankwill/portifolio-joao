@@ -1,0 +1,20 @@
+@import url(assets/css/header.css);
+
+:root {
+    --fundo: #222222;
+    --branco: #FFFFFF;
+    --acentos: #1AACF0;
+    --cinza: #7C7C7C;
+    --cinza-escuro: #2F2F2F;
+    --fonte: 'Roboto', sans-serif;
+
+}
+
+
+body {
+    background: var(--fundo);
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: var(--fonte);
+}
