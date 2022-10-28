@@ -1,0 +1,21 @@
+.contacts__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contacts__list-item {
+    line-height: normal;
+}
+
+.contacts__list-tittle {
+    font-weight: 500;
+}
+
+.contacts__list-text {
+    color: var(--cinza);
+    font-size: 13px;
+}
