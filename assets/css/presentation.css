@@ -1,0 +1,44 @@
+.presentation__section {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    margin: 5rem 1rem;
+}
+
+.presentation__container {
+    text-align: center;
+    line-height: normal;
+}
+
+.presentation__tittle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.presentation__tittle::after {
+    content: "";
+    background: url(../img/server\ 1.svg) no-repeat center;
+    padding: 1rem;
+}
+
+.presentation__text {
+    color: var(--cinza);
+    margin: .5rem 0;
+}
+
+.presentation__button {
+    padding: 1rem 1.5rem;
+    background: var(--acentos);
+    color: var(--branco);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.button-contact {
+    border: 1px solid var(--cinza);
+    background: none;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
