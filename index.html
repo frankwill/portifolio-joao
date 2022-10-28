@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -60,7 +61,48 @@
                 </ul>
             </article>
         </section>
+
+        <section class="experience">
+            <h3 class="experience__tittle">Experiência</h3>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="assets/img/dux.PNG" alt="Logotipo Dux Logística"></div>
+                  <div class="swiper-slide"><img src="assets/img/pirelli.jpg" alt="Logotipo da Pirelli"></div>
+                  <div class="swiper-slide"><img src="assets/img/seade.jpg" alt="Logotipo Seade"></div>
+                  
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+              </div>
+        </section>
     </main>
+
+    <!-- ====================== Swiper JS ====================== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        // using "ratio" endpoints
+        breakpoints: {
+            '@0.75': {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            },
+            '@1.00': {
+            slidesPerView: 3,
+            spaceBetween: 40,
+            },
+            '@1.50': {
+            slidesPerView: 4,
+            spaceBetween: 50,
+            },
+        }
+        });
+    </script>
 </body>
 
 </html>

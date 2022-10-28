@@ -1,0 +1,17 @@
+.experience {
+    text-align: center;
+    margin: 5rem 2rem 2rem 2rem;
+}
+
+.experience__tittle {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.swiper-wrapper {
+    margin-top: 2rem;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
