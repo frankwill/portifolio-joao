@@ -18,4 +18,5 @@
 .contacts__list-text {
     color: var(--cinza);
     font-size: 13px;
+    text-decoration: none;
 }

@@ -3,6 +3,8 @@
 @import url(assets/css/about.css);
 @import url(assets/css/contacts.css);
 @import url(assets/css/experience.css);
+@import url(assets/css/projects.css);
+@import url(assets/css/cards.css);
 
 :root {
     --fundo: #222222;
