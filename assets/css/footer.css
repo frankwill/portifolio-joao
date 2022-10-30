@@ -1,0 +1,14 @@
+footer {
+    background: var(--cinza-escuro);
+    padding: 1.5rem 1rem;
+
+}
+
+.footer__tittle {
+    font-size: 13px;
+    text-align: center;
+}
+
+strong {
+    color: var(--acentos);
+}
