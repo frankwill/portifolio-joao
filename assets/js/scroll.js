@@ -7,11 +7,9 @@ class Secoes {
         //getBoundingClientRect()['y'] monitora a posição do eixo y do elemento section-dicas
         const posicao = document.querySelector('.about').getBoundingClientRect()['y'];
 
-        console.log(posicao)
-
-        if(posicao <= 60) {
+        if(posicao <= 154) {
             document.querySelector('.about').style.opacity = '100%';
-        } else if (posicao >= 61) {
+        } else if (posicao >= 155) {
             document.querySelector('.about').style.opacity = '0%';
         }
 

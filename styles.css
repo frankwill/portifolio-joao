@@ -22,6 +22,10 @@
     box-sizing: border-box;
 }
 
+p {
+    text-decoration: none;
+}
+
 body {
     background: var(--fundo);
     font-size: 16px;
