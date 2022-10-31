@@ -9,6 +9,7 @@
 
 .contacts__list-item {
     line-height: normal;
+    text-decoration: none;
 }
 
 .contacts__list-tittle {
