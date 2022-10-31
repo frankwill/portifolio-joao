@@ -7,7 +7,7 @@
     margin-top: 2rem;
 }
 
-.contacts__list-item {
+.contacts__list-item a{
     line-height: normal;
     text-decoration: none;
 }
