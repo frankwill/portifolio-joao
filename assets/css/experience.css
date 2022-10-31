@@ -1,6 +1,8 @@
 .experience {
     text-align: center;
     margin: 5rem 2rem 2rem 2rem;
+    opacity: 0;
+    transition: .4s;
 }
 
 .experience__tittle {
