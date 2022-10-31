@@ -4,12 +4,14 @@
     align-items: center;
     gap: 1rem;
     padding-top: 5rem;
+    opacity: 0;
+    transition: .3s;
 }
 
 .about__img {
     border-left: 10px solid var(--acentos);
     width: 200px;
-    height: 200px;
+    height: 190px;
 }
 
 .about__tittle {

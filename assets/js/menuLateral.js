@@ -5,3 +5,4 @@ botao.addEventListener('click', () => {
     menuLateral.classList.toggle('open')
     botao.classList.toggle('header__menu--open')
 })
+
