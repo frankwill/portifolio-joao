@@ -70,4 +70,43 @@
 
 }
 
+.header__tittle-tablet {
+   display: none;
+}
+
+.header__list {
+   display: none;
+}
+
+@media screen and (min-width: 1024px) {
+   .header__tittle {
+      display: none;
+   }
+
+   .header__tittle-tablet {
+      display: flex;
+      color: var(--cinza);
+      font-size: 18px;
+      font-weight: 500;
+      background: url(../img/insights.svg) no-repeat 11rem / 1.5rem;
+      padding-right: 2rem;
+   }
+
+   .header__menu {
+      display: none;
+   }
+
+   .header__list {
+      display: flex;
+      gap: 3rem;
+   }
+
+   .header__list-link {
+      text-decoration: none;
+      color: var(--acentos);
+      
+   }
+}
+
+
 
