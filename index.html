@@ -14,10 +14,28 @@
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="header__tittle">João V.</h1>
-        <button class="header__menu"></button>
+    <header class="header"> 
+        <nav class="nav__menu">
+            <h1 class="header__tittle">João V.</h1>
+            <button class="header__menu"></button>
+        </nav>
+
+        <div class="mobile__menu">
+            <ul class="nav__menu-list">
+                <li class="nav__menu-item">
+                    <a class="nav__menu-link" href="#">Sobre mim</a>
+                </li>
+                <li class="nav__menu-item">
+                    <a class="nav__menu-link" href="#">Experiência</a>
+                </li>
+                <li class="nav__menu-item">
+                    <a class="nav__menu-link" href="#">Projetos</a>
+                </li>
+            </ul>
+        </div>
     </header>
+
+    
 
     <main>
         <section class="presentation__section">
@@ -171,6 +189,8 @@
         }
         });
     </script>
+
+    <script src="assets/js/menuLateral.js"></script>
 </body>
 
 </html>

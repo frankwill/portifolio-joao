@@ -9,6 +9,7 @@
 
 :root {
     --fundo: #222222;
+    --menu-lateral: #141414;
     --branco: #FFFFFF;
     --acentos: #1AACF0;
     --cinza: #7C7C7C;
@@ -17,6 +18,9 @@
 
 }
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     background: var(--fundo);
