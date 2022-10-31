@@ -7,17 +7,14 @@
     margin-top: 2rem;
 }
 
-.contacts__list-item a{
+.contacts__list-item span{
     line-height: normal;
     text-decoration: none;
+    color: var(--cinza);
+    font-size: 13px;
 }
 
 .contacts__list-tittle {
     font-weight: 500;
 }
 
-.contacts__list-text {
-    color: var(--cinza);
-    font-size: 13px;
-    text-decoration: none;
-}
