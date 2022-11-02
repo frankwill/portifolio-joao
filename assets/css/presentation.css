@@ -6,6 +6,10 @@
     margin: 5rem 1rem;
 }
 
+.presentation__menu {
+    display: none;
+}
+
 .presentation__container {
     text-align: center;
     line-height: normal;
@@ -40,4 +44,41 @@
     background: none;
     border-radius: 10px;
     margin-left: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .presentation__section{
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        gap: 0;
+        column-gap: 4rem;
+        margin-right: 0;
+    }
+
+    .presentation__container {
+        text-align: initial;
+        padding: 0 2rem;
+    }
+
+    .buttons {
+        grid-column: 1;
+    }
+
+    .presentation__img {
+        grid-column: 2;
+        grid-row: 1 / 3;
+        background: url(../img/vector-graph.svg);
+        width: 336px;
+        height: 209px;
+    }
+
+    .presentation__menu {
+        display: block;
+        grid-column: 3;
+        grid-row: 1 / 4;
+    }
+
+    .presentation__menu-link img{
+        margin-top: 1rem;
+    }
 }
