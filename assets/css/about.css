@@ -27,9 +27,8 @@
 .about__text {
     text-align: center;
     color: var(--cinza);
-    width: 500px;
     line-height: normal;
-    margin: .5rem 0;
+    padding: 1rem 1.5rem;
 }
 
 .tablet {
