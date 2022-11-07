@@ -18,6 +18,14 @@
 .cards__menu-tittle {
     font-size: 18px;
     font-weight: 500;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.cards__menu-tittle::after {
+    content: "";
+    background: url(../img/link.svg) no-repeat center / 1.5rem;
+    padding-right: 4rem;
 }
 
 .cards__menu-text {
