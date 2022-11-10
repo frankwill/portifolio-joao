@@ -87,3 +87,17 @@
         height: 222px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .cards__menu-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 6rem;
+        gap: 1.5rem;
+    }
+
+    .cards__menu-item {
+        margin: 0;
+    }
+}
