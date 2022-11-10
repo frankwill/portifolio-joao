@@ -17,3 +17,13 @@
 .swiper-slide img {
     width: 100%;
 }
+
+@media screen and (min-width: 1440px) {
+    .experience__tittle {
+        font-size: 28px;
+    }
+
+    .swiper {
+        width: 85%;
+    }
+}
